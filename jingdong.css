@@ -1,0 +1,157 @@
+*{
+    padding:0;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.wrap{
+    width: 590px;
+    height: 523px;
+}
+.header{
+    height: 26px;                             /*为何高度为58px，就无法居中*/
+    padding:16px 25px;
+    color: #ffffff;
+    background-color: #cd375e;
+}
+.header .fl,.header .fr{
+    margin:0 auto;
+}
+.header h3{
+    font-size: 22px;
+    height: 26px;
+    line-height: 26px;
+}
+.header a{
+    display: inline-block;
+    height:24px;
+    line-height: 24px;
+    border:1px solid #ffffff;
+    padding-left: 10px;
+    padding-right:10px;                           /*padding: auto 10px;无法识别*/
+    margin-left: 10px;
+    color: #ffffff;
+                                                  /*为何字体没有继承header的颜色*/
+}
+.content {
+    padding: 10px;
+    height: 445px;
+    width: 590px;
+}
+.content .floor1{
+    height:260px;
+}
+.content .floor1-l{
+    width: 183px;
+    height:260px;
+    margin-right: 10px;
+    background-color: #1b6568;
+}
+
+.content .floor1-r1, .content .floor1-r2,.content .floor1-r3,.content .floor1-r4{
+    width: 188px;
+    height: 130px;
+}
+.content .floor1-r1{
+    background-color: #21682a;
+    border-right:1px solid #ffffff;
+    border-bottom:1px solid #ffffff;
+}
+.content .floor1-r1 p{
+    margin-top: 20px;
+    margin-left:20px;
+    line-height: 16px;
+    font-size: 14px;
+}
+.content .floor1-r1 p:first-child{
+    margin-top: 20px;                            /*为什么没有效果*/
+}
+.content .floor1-r1 p:last-child{
+     font-size: 12px;
+     line-height: 14px;
+     margin-top: 10px;
+ }
+.content .floor1-r1 img{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.content .floor1-r2{
+    background-color: #556826;
+    border-bottom:1px solid #ffffff;
+}
+.content .floor1-r3{
+    background-color: #685023;
+    border-right:1px solid #ffffff;
+}
+.content .floor1-r4{
+    background-color: #683d23;
+}
+.content .floor2{
+    width: 1140px;
+    height: 140px;
+    padding-top: 10px;
+}
+.content .floor2 .floor2-l, .content .floor2 .floor2-c, .content .floor2 .floor2-r{
+    width: 183px;
+    height: 130px;
+    float: left;
+}
+.content .floor2 .floor2-l{
+    background-color: #3f8dc7;
+    margin-right: 10px;
+}
+.content .floor2 .floor2-c{
+    background-color: #ff42cb;
+    margin-right: 10px;
+}
+.content .floor2 .floor2-r{
+    background-color: #9e75ff;
+}
+.content .floor3{
+    width: 569px;
+    height: 35px;
+    margin-top: 10px;
+}
+.content .floor3 .floor3-1, .content .floor3 .floor3-2, .content .floor3 .floor3-3, .content .floor3 .floor3-4, .content .floor3 .floor3-5, .content .floor3 .floor3-6{
+    width: 70px;
+    height: 35px;
+    padding:0 12px;
+    border-right:1px solid rgba(158, 117, 255, 0.5);
+}
+.content .floor3 a{
+    display: block;
+    height:35px;
+    line-height: 35px;
+    margin:0 auto;
+}
+.content .floor3 .floor3-1 a{
+    background-color: #1cf6ff;
+}
+.content .floor3 .floor3-2 a{
+    background-color: #3e64ff;
+}
+.content .floor3 .floor3-3 a{
+    background-color: #72ff79;
+  }
+.content .floor3 .floor3-4 a{
+    background-color: #ffea77;
+}
+.content .floor3 .floor3-5 a{
+    background-color: #ff7d7a;
+}
+.content .floor3 .floor3-6 a{
+    background-color: #c05aff;
+}
+
